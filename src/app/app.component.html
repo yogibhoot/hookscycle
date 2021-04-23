@@ -1,0 +1,28 @@
+<h1 style="text-align: center;">OPERA WEB APP</h1>
+<!-- 
+<div>
+  <p>Without JSON pipe:</p>
+  <pre>{{object}}</pre>
+  <p>With JSON pipe:</p>
+  <pre>{{object | json}}</pre>
+</div>
+
+
+<h2>Power Boost Calculator</h2>
+<div>Normal power: <input [(ngModel)]="power"></div>
+<div>Boost factor: <input [(ngModel)]="factor"></div>
+<p>
+  Super Hero Power: {{power | examplePipe: factor}}
+</p>
+
+<div><code>observable|async</code>: Time: {{ time | async }}</div> -->
+<!-- <app-user [hero]="data1"></app-user> -->
+<div style="text-align: center;">
+  <div>
+<button (click)="increment()">Addition</button>
+<app-user *ngIf="isVisibility" [MynewNumber]="counter" [Myname]="user"></app-user>
+<button (click)="decrement()">Subsrtact</button><br>
+<a (click)="updateValue()" style="margin-top: 10px;">Update</a><br>
+<button (click)="switchVisibility()">Visibilty</button>
+</div>
+</div>
